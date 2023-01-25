@@ -10,7 +10,7 @@ const Todo = () => {
   const [editDetails, setEditDetails] = useState(false)
   const [deleteDetails, setDeleteDetails] = useState()
   const [record, setRecord] = useState({
-    id: Math.floor(Math.random() * 99999),
+    id: 1,
     name: "",
     age: "",
     work: "",
